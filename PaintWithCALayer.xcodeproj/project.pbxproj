@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		647DE2791C13B21900F782E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE2781C13B21900F782E0 /* AppDelegate.swift */; };
-		647DE27B1C13B21900F782E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE27A1C13B21900F782E0 /* ViewController.swift */; };
+		647DE2791C13B21900F782E0 /* JHAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE2781C13B21900F782E0 /* JHAppDelegate.swift */; };
+		647DE27B1C13B21900F782E0 /* JHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE27A1C13B21900F782E0 /* JHViewController.swift */; };
 		647DE27E1C13B21900F782E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647DE27C1C13B21900F782E0 /* Main.storyboard */; };
 		647DE2801C13B21900F782E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DE27F1C13B21900F782E0 /* Assets.xcassets */; };
 		647DE2831C13B21900F782E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647DE2811C13B21900F782E0 /* LaunchScreen.storyboard */; };
 		647DE28E1C13B21900F782E0 /* PaintWithCALayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE28D1C13B21900F782E0 /* PaintWithCALayerTests.swift */; };
 		647DE2991C13B21900F782E0 /* PaintWithCALayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE2981C13B21900F782E0 /* PaintWithCALayerUITests.swift */; };
+		647DE2AC1C13C12700F782E0 /* JHViewController+TouchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE2AB1C13C12700F782E0 /* JHViewController+TouchHandler.swift */; };
+		647DE2AE1C13C49B00F782E0 /* JHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DE2AD1C13C49B00F782E0 /* JHUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		647DE2751C13B21900F782E0 /* PaintWithCALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintWithCALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		647DE2781C13B21900F782E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		647DE27A1C13B21900F782E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		647DE2781C13B21900F782E0 /* JHAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHAppDelegate.swift; sourceTree = "<group>"; };
+		647DE27A1C13B21900F782E0 /* JHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHViewController.swift; sourceTree = "<group>"; };
 		647DE27D1C13B21900F782E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		647DE27F1C13B21900F782E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		647DE2821C13B21900F782E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		647DE2941C13B21900F782E0 /* PaintWithCALayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintWithCALayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		647DE2981C13B21900F782E0 /* PaintWithCALayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintWithCALayerUITests.swift; sourceTree = "<group>"; };
 		647DE29A1C13B21900F782E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647DE2AB1C13C12700F782E0 /* JHViewController+TouchHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JHViewController+TouchHandler.swift"; sourceTree = "<group>"; };
+		647DE2AD1C13C49B00F782E0 /* JHUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		647DE2771C13B21900F782E0 /* PaintWithCALayer */ = {
 			isa = PBXGroup;
 			children = (
-				647DE2781C13B21900F782E0 /* AppDelegate.swift */,
-				647DE27A1C13B21900F782E0 /* ViewController.swift */,
+				647DE2781C13B21900F782E0 /* JHAppDelegate.swift */,
+				647DE27A1C13B21900F782E0 /* JHViewController.swift */,
+				647DE2AB1C13C12700F782E0 /* JHViewController+TouchHandler.swift */,
+				647DE2AD1C13C49B00F782E0 /* JHUtil.swift */,
 				647DE27C1C13B21900F782E0 /* Main.storyboard */,
 				647DE27F1C13B21900F782E0 /* Assets.xcassets */,
 				647DE2811C13B21900F782E0 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647DE27B1C13B21900F782E0 /* ViewController.swift in Sources */,
-				647DE2791C13B21900F782E0 /* AppDelegate.swift in Sources */,
+				647DE2AC1C13C12700F782E0 /* JHViewController+TouchHandler.swift in Sources */,
+				647DE27B1C13B21900F782E0 /* JHViewController.swift in Sources */,
+				647DE2791C13B21900F782E0 /* JHAppDelegate.swift in Sources */,
+				647DE2AE1C13C49B00F782E0 /* JHUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

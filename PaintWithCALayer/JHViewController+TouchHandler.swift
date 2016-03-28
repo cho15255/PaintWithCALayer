@@ -64,7 +64,7 @@ extension JHViewController {
             self.controlPoints.insertContentsOf(newControlPoints, at: self.pointsIndex-1)
         }
         
-        self.pointsIndex++
+        self.pointsIndex += 1
         
         self.drawPath = UIBezierPath()
         let firstPoint = self.bezierPoints[0]
